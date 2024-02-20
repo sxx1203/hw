@@ -8,7 +8,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() {
-		return "Hello Oliver Today is 2/17/2024!";
+		return "Hello Oliver and Sarah Today is " + new Date() + "!";
 	}
 
 }
